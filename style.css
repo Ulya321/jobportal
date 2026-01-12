@@ -1,0 +1,65 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #1e1b4b, #020617);
+      color: white;
+    }
+
+    .fantasy-card {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(16px);
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 20px 40px rgba(0,0,0,.4);
+    }
+
+    .table thead {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff;
+    }
+
+    .status-no { background: #334155; }
+    .status-prep { background: #7c3aed; }
+    .status-applied { background: #16a34a; }
+
+    .badge {
+      padding: .5em .8em;
+      border-radius: 999px;
+      font-weight: 500;
+    }
+
+    .btn-fantasy {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      border: none;
+      color: white;
+    }
+
+    .btn-fantasy:hover { opacity: .9; }
+
+    .form-control, .form-select {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: white;
+    }
+
+    .form-control::placeholder { color: white; }
+
+    /* Select dropdown */
+select.form-select {
+  background-color: #4f46e5; /* biru */
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+/* Dropdown options */
+select.form-select option {
+  background-color: #6366f1; /* biru muda */
+  color: #ffffff;
+}
+
+/* Hover option (support sebagian browser) */
+select.form-select option:hover {
+  background-color: #818cf8;
+  color: #ffffff;
+}
